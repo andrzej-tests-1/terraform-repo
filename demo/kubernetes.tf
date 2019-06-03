@@ -1,9 +1,9 @@
 module "kubernetes" {
-  source = "git::ssh://git@github.com/andrzej-tests-1/terraform-module-gcp-kubernetes?ref=1.0.0"
+  source = "git::ssh://git@github.com/andrzej-tests-1/terraform-module-gcp-kubernetes?ref=1.1.0"
 
   environment  = "${var.environment}"
   id           = "1"
-  machine_type = "g1-small"
+  machine_type = "n1-standard-2"
   node_count   = "2"
 
   network       = "${module.network.network}"
