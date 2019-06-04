@@ -3,6 +3,8 @@
 From this point you can apply all terraform configurations in this project.
 Below you can find information how to proceed with it.
 
+TODO:
+- add DNS support for Jenkins and Sentry.App
 
 ### If you want to configure terraform environment
 
